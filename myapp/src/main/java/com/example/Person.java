@@ -10,7 +10,6 @@ public class Person {
     private String lastName;
     private int age;
 
-    // Конструкторы
     public Person() {
     }
 
@@ -19,8 +18,7 @@ public class Person {
         this.lastName = lastName;
         this.age = age;
     }
-
-    // Геттеры и сеттеры для полей
+ 
     public String getFirstName() {
         return firstName;
     }
@@ -45,7 +43,6 @@ public class Person {
         this.age = age;
     }
 
-    // Методы переопределения
     @Override
     public String toString() {
         return new ToStringBuilder(this)
